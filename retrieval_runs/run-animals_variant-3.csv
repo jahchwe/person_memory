@@ -1,0 +1,97 @@
+event_type,face,statement,end_time,duration
+show_statement,white_neutral_faces/CFD-WF-205-006-N.jpg,"I enjoy the feeling of a warm, cuddly dog.",6,6
+jitter,,,8,2
+show_grid,white_neutral_faces/CFD-WF-205-006-N.jpg,"I enjoy the feeling of a warm, cuddly dog.",14,6
+jitter,,,18,4
+show_statement,white_neutral_faces/CFD-WF-210-086-N.jpg,I prefer dogs to cats.,24,6
+jitter,,,25,1
+show_grid,white_neutral_faces/CFD-WF-210-086-N.jpg,I prefer dogs to cats.,31,6
+jitter,,,33,2
+show_statement,white_neutral_faces/CFD-WM-231-112-N.jpg,I prefer to live in a house with animals.,39,6
+jitter,,,40,1
+show_grid,white_neutral_faces/CFD-WM-231-112-N.jpg,I prefer to live in a house with animals.,46,6
+jitter,,,50,4
+show_statement,white_neutral_faces/CFD-WM-231-112-N.jpg,I hate the smell of animal poop.,56,6
+jitter,,,58,2
+show_grid,white_neutral_faces/CFD-WM-231-112-N.jpg,I hate the smell of animal poop.,64,6
+jitter,,,65,1
+show_statement,white_neutral_faces/CFD-WF-217-085-N.jpg,I like the feeling fur on my skin.,71,6
+jitter,,,75,4
+show_grid,white_neutral_faces/CFD-WF-217-085-N.jpg,I like the feeling fur on my skin.,81,6
+jitter,,,82,1
+show_statement,white_neutral_faces/CFD-WF-205-006-N.jpg,I love to take animals with me everywhere.,88,6
+jitter,,,92,4
+show_grid,white_neutral_faces/CFD-WF-205-006-N.jpg,I love to take animals with me everywhere.,98,6
+jitter,,,100,2
+show_statement,white_neutral_faces/CFD-WF-210-086-N.jpg,I don't like animals when they're too big.,106,6
+jitter,,,107,1
+show_grid,white_neutral_faces/CFD-WF-210-086-N.jpg,I don't like animals when they're too big.,113,6
+jitter,,,116,3
+show_statement,white_neutral_faces/CFD-WF-002-004-N.jpg,I don't like animals that shed fur.,122,6
+jitter,,,125,3
+show_grid,white_neutral_faces/CFD-WF-002-004-N.jpg,I don't like animals that shed fur.,131,6
+jitter,,,132,1
+show_statement,white_neutral_faces/CFD-WF-002-004-N.jpg,I love when animals wag their tails.,138,6
+jitter,,,142,4
+show_grid,white_neutral_faces/CFD-WF-002-004-N.jpg,I love when animals wag their tails.,148,6
+jitter,,,149,1
+show_statement,white_neutral_faces/CFD-WM-256-138-N.jpg,I don't like the feeling of guilt after abandoning an animal.,155,6
+jitter,,,158,3
+show_grid,white_neutral_faces/CFD-WM-256-138-N.jpg,I don't like the feeling of guilt after abandoning an animal.,164,6
+jitter,,,166,2
+show_statement,white_neutral_faces/CFD-WM-209-038-N.jpg,I hate the way animals can be unpredictable.,172,6
+jitter,,,174,2
+show_grid,white_neutral_faces/CFD-WM-209-038-N.jpg,I hate the way animals can be unpredictable.,180,6
+jitter,,,182,2
+show_statement,white_neutral_faces/CFD-WM-203-023-N.jpg,I love the feeling of satisfaction after helping an animal in need.,188,6
+jitter,,,192,4
+show_grid,white_neutral_faces/CFD-WM-203-023-N.jpg,I love the feeling of satisfaction after helping an animal in need.,198,6
+jitter,,,200,2
+show_statement,white_neutral_faces/CFD-WF-217-085-N.jpg,I hate the way animals scratch furniture.,206,6
+jitter,,,208,2
+show_grid,white_neutral_faces/CFD-WF-217-085-N.jpg,I hate the way animals scratch furniture.,214,6
+jitter,,,217,3
+show_statement,white_neutral_faces/CFD-WM-209-038-N.jpg,I enjoy the company of animals.,223,6
+jitter,,,224,1
+show_grid,white_neutral_faces/CFD-WM-209-038-N.jpg,I enjoy the company of animals.,230,6
+jitter,,,231,1
+show_statement,white_neutral_faces/CFD-WM-256-138-N.jpg,I love the way animals teach me about patience and compassion.,237,6
+jitter,,,241,4
+show_grid,white_neutral_faces/CFD-WM-256-138-N.jpg,I love the way animals teach me about patience and compassion.,247,6
+jitter,,,249,2
+show_statement,white_neutral_faces/CFD-WF-217-085-N.jpg,I hate the sight of a sick or injured animal.,255,6
+jitter,,,259,4
+show_grid,white_neutral_faces/CFD-WF-217-085-N.jpg,I hate the sight of a sick or injured animal.,265,6
+jitter,,,269,4
+show_statement,white_neutral_faces/CFD-WM-203-023-N.jpg,I like animals when they're furry.,275,6
+jitter,,,278,3
+show_grid,white_neutral_faces/CFD-WM-203-023-N.jpg,I like animals when they're furry.,284,6
+jitter,,,286,2
+show_statement,white_neutral_faces/CFD-WM-209-038-N.jpg,I like when animals are part of my family.,292,6
+jitter,,,295,3
+show_grid,white_neutral_faces/CFD-WM-209-038-N.jpg,I like when animals are part of my family.,301,6
+jitter,,,305,4
+show_statement,white_neutral_faces/CFD-WF-002-004-N.jpg,I like the way animals make me feel happy and loved.,311,6
+jitter,,,312,1
+show_grid,white_neutral_faces/CFD-WF-002-004-N.jpg,I like the way animals make me feel happy and loved.,318,6
+jitter,,,322,4
+show_statement,white_neutral_faces/CFD-WF-205-006-N.jpg,I love the feeling of being a responsible pet owner.,328,6
+jitter,,,331,3
+show_grid,white_neutral_faces/CFD-WF-205-006-N.jpg,I love the feeling of being a responsible pet owner.,337,6
+jitter,,,340,3
+show_statement,white_neutral_faces/CFD-WM-203-023-N.jpg,I enjoy the sound of barks.,346,6
+jitter,,,349,3
+show_grid,white_neutral_faces/CFD-WM-203-023-N.jpg,I enjoy the sound of barks.,355,6
+jitter,,,359,4
+show_statement,white_neutral_faces/CFD-WM-256-138-N.jpg,"I love animals' big, innocent eyes.",365,6
+jitter,,,366,1
+show_grid,white_neutral_faces/CFD-WM-256-138-N.jpg,"I love animals' big, innocent eyes.",372,6
+jitter,,,373,1
+show_statement,white_neutral_faces/CFD-WM-231-112-N.jpg,I don't like the way animals can be destructive.,379,6
+jitter,,,383,4
+show_grid,white_neutral_faces/CFD-WM-231-112-N.jpg,I don't like the way animals can be destructive.,389,6
+jitter,,,390,1
+show_statement,white_neutral_faces/CFD-WF-210-086-N.jpg,I like the sight of a playful puppy running around.,396,6
+jitter,,,398,2
+show_grid,white_neutral_faces/CFD-WF-210-086-N.jpg,I like the sight of a playful puppy running around.,404,6
+jitter,,,408,4

@@ -1,0 +1,97 @@
+event_type,face,statement,end_time,duration
+show_statement,white_neutral_faces/CFD-WM-039-018-N.jpg,I don't like getting blisters.,6,6
+jitter,,,8,2
+show_grid,white_neutral_faces/CFD-WM-039-018-N.jpg,I don't like getting blisters.,14,6
+jitter,,,16,2
+show_statement,white_neutral_faces/CFD-WM-217-070-N.jpg,I don't being sore after exercising.,22,6
+jitter,,,25,3
+show_grid,white_neutral_faces/CFD-WM-217-070-N.jpg,I don't being sore after exercising.,31,6
+jitter,,,34,3
+show_statement,white_neutral_faces/CFD-WF-007-001-N.jpg,I enjoy the sound of the crowd cheering.,40,6
+jitter,,,42,2
+show_grid,white_neutral_faces/CFD-WF-007-001-N.jpg,I enjoy the sound of the crowd cheering.,48,6
+jitter,,,52,4
+show_statement,white_neutral_faces/CFD-WM-202-107-N.jpg,I hate the feeling of sand in my shoes.,58,6
+jitter,,,61,3
+show_grid,white_neutral_faces/CFD-WM-202-107-N.jpg,I hate the feeling of sand in my shoes.,67,6
+jitter,,,70,3
+show_statement,white_neutral_faces/CFD-WF-224-099-N.jpg,I like the feeling of runnning fast.,76,6
+jitter,,,78,2
+show_grid,white_neutral_faces/CFD-WF-224-099-N.jpg,I like the feeling of runnning fast.,84,6
+jitter,,,86,2
+show_statement,white_neutral_faces/CFD-WM-039-018-N.jpg,I love the feeling of peace that comes with being in nature.,92,6
+jitter,,,95,3
+show_grid,white_neutral_faces/CFD-WM-039-018-N.jpg,I love the feeling of peace that comes with being in nature.,101,6
+jitter,,,102,1
+show_statement,white_neutral_faces/CFD-WM-217-070-N.jpg,I enjoy outdoor activities.,108,6
+jitter,,,110,2
+show_grid,white_neutral_faces/CFD-WM-217-070-N.jpg,I enjoy outdoor activities.,116,6
+jitter,,,120,4
+show_statement,white_neutral_faces/CFD-WF-224-099-N.jpg,I like quieter activities.,126,6
+jitter,,,130,4
+show_grid,white_neutral_faces/CFD-WF-224-099-N.jpg,I like quieter activities.,136,6
+jitter,,,138,2
+show_statement,white_neutral_faces/CFD-WF-023-003-N.jpg,I like hiking a beautiful mountain range.,144,6
+jitter,,,148,4
+show_grid,white_neutral_faces/CFD-WF-023-003-N.jpg,I like hiking a beautiful mountain range.,154,6
+jitter,,,156,2
+show_statement,white_neutral_faces/CFD-WF-023-003-N.jpg,I like it when it's a team sport.,162,6
+jitter,,,163,1
+show_grid,white_neutral_faces/CFD-WF-023-003-N.jpg,I like it when it's a team sport.,169,6
+jitter,,,171,2
+show_statement,white_neutral_faces/CFD-WF-023-003-N.jpg,I like surfing on large waves.,177,6
+jitter,,,179,2
+show_grid,white_neutral_faces/CFD-WF-023-003-N.jpg,I like surfing on large waves.,185,6
+jitter,,,186,1
+show_statement,white_neutral_faces/CFD-WM-026-001-N.jpg,I love the feeling of accomplishment after finishing a race.,192,6
+jitter,,,194,2
+show_grid,white_neutral_faces/CFD-WM-026-001-N.jpg,I love the feeling of accomplishment after finishing a race.,200,6
+jitter,,,204,4
+show_statement,white_neutral_faces/CFD-WM-202-107-N.jpg,I love painting or sculpting.,210,6
+jitter,,,213,3
+show_grid,white_neutral_faces/CFD-WM-202-107-N.jpg,I love painting or sculpting.,219,6
+jitter,,,220,1
+show_statement,white_neutral_faces/CFD-WM-217-070-N.jpg,I hate the feeling of being tired.,226,6
+jitter,,,228,2
+show_grid,white_neutral_faces/CFD-WM-217-070-N.jpg,I hate the feeling of being tired.,234,6
+jitter,,,236,2
+show_statement,white_neutral_faces/CFD-WF-007-001-N.jpg,I don't like social activities.,242,6
+jitter,,,245,3
+show_grid,white_neutral_faces/CFD-WF-007-001-N.jpg,I don't like social activities.,251,6
+jitter,,,253,2
+show_statement,white_neutral_faces/CFD-WF-028-023-N.jpg,I enjoy sailing in the bay.,259,6
+jitter,,,262,3
+show_grid,white_neutral_faces/CFD-WF-028-023-N.jpg,I enjoy sailing in the bay.,268,6
+jitter,,,271,3
+show_statement,white_neutral_faces/CFD-WM-202-107-N.jpg,I don't like the feeling of being sunburned.,277,6
+jitter,,,279,2
+show_grid,white_neutral_faces/CFD-WM-202-107-N.jpg,I don't like the feeling of being sunburned.,285,6
+jitter,,,287,2
+show_statement,white_neutral_faces/CFD-WM-026-001-N.jpg,I don't like sports when they are too competitive.,293,6
+jitter,,,297,4
+show_grid,white_neutral_faces/CFD-WM-026-001-N.jpg,I don't like sports when they are too competitive.,303,6
+jitter,,,307,4
+show_statement,white_neutral_faces/CFD-WM-026-001-N.jpg,I love the feeling of scoring a goal.,313,6
+jitter,,,316,3
+show_grid,white_neutral_faces/CFD-WM-026-001-N.jpg,I love the feeling of scoring a goal.,322,6
+jitter,,,325,3
+show_statement,white_neutral_faces/CFD-WF-028-023-N.jpg,I love knitting or crocheting.,331,6
+jitter,,,335,4
+show_grid,white_neutral_faces/CFD-WF-028-023-N.jpg,I love knitting or crocheting.,341,6
+jitter,,,343,2
+show_statement,white_neutral_faces/CFD-WF-224-099-N.jpg,I hate the feeling of losing a game.,349,6
+jitter,,,351,2
+show_grid,white_neutral_faces/CFD-WF-224-099-N.jpg,I hate the feeling of losing a game.,357,6
+jitter,,,358,1
+show_statement,white_neutral_faces/CFD-WM-039-018-N.jpg,I am worried about being lost in nature.,364,6
+jitter,,,365,1
+show_grid,white_neutral_faces/CFD-WM-039-018-N.jpg,I am worried about being lost in nature.,371,6
+jitter,,,374,3
+show_statement,white_neutral_faces/CFD-WF-007-001-N.jpg,I love completing marathons.,380,6
+jitter,,,384,4
+show_grid,white_neutral_faces/CFD-WF-007-001-N.jpg,I love completing marathons.,390,6
+jitter,,,391,1
+show_statement,white_neutral_faces/CFD-WF-028-023-N.jpg,I prefer playing basketball to football.,397,6
+jitter,,,398,1
+show_grid,white_neutral_faces/CFD-WF-028-023-N.jpg,I prefer playing basketball to football.,404,6
+jitter,,,408,4

@@ -1,0 +1,49 @@
+event_type,face,statement,end_time,duration
+encoding,white_neutral_faces/CFD-WF-021-002-N.jpg,I prefer pizza to tacos.,6,6
+jitter,,,8,2
+encoding,white_neutral_faces/CFD-WM-201-063-N.jpg,I like the sight of a perfectly cooked steak.,14,6
+jitter,,,16,2
+encoding,white_neutral_faces/CFD-WM-254-152-N.jpg,I don't like eating junk food.,22,6
+jitter,,,26,4
+encoding,white_neutral_faces/CFD-WF-248-129-N.jpg,I love a cheap meal.,32,6
+jitter,,,35,3
+encoding,white_neutral_faces/CFD-WM-254-152-N.jpg,I like food when it's healthy and nutritious.,41,6
+jitter,,,45,4
+encoding,white_neutral_faces/CFD-WF-248-129-N.jpg,I love the smell of garlic cooking in a pan.,51,6
+jitter,,,52,1
+encoding,white_neutral_faces/CFD-WM-252-224-N.jpg,I hate the sight of a moldy piece of fruit.,58,6
+jitter,,,61,3
+encoding,white_neutral_faces/CFD-WM-252-224-N.jpg,I enjoy the taste of a juicy burger.,67,6
+jitter,,,68,1
+encoding,white_neutral_faces/CFD-WF-039-025-N.jpg,I don't like food when it's greasy and unhealthy.,74,6
+jitter,,,78,4
+encoding,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy a warm chocolate chip cookie.,84,6
+jitter,,,87,3
+encoding,white_neutral_faces/CFD-WM-001-014-N.jpg,I don't like the smell of fish.,93,6
+jitter,,,94,1
+encoding,white_neutral_faces/CFD-WF-021-002-N.jpg,I love the smell of fresh-brewed coffee.,100,6
+jitter,,,101,1
+encoding,white_neutral_faces/CFD-WF-021-002-N.jpg,I love the taste of pasta.,107,6
+jitter,,,108,1
+encoding,white_neutral_faces/CFD-WM-201-063-N.jpg,I hate the taste of olives.,114,6
+jitter,,,118,4
+encoding,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate foods that crunch.,124,6
+jitter,,,128,4
+encoding,white_neutral_faces/CFD-WM-201-063-N.jpg,I like fresh fruit.,134,6
+jitter,,,138,4
+encoding,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate slimy noodles.,144,6
+jitter,,,146,2
+encoding,white_neutral_faces/CFD-WM-254-152-N.jpg,I don't like food when it's too sweet.,152,6
+jitter,,,154,2
+encoding,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy the smell of fresh-baked bread.,160,6
+jitter,,,163,3
+encoding,white_neutral_faces/CFD-WM-252-224-N.jpg,I prefer a salad to a plate of fries.,169,6
+jitter,,,172,3
+encoding,white_neutral_faces/CFD-WF-248-129-N.jpg,I like the sound of a slurping noodle.,178,6
+jitter,,,180,2
+encoding,white_neutral_faces/CFD-WF-025-019-N.jpg,I like food when it's cheesy.,186,6
+jitter,,,190,4
+encoding,white_neutral_faces/CFD-WM-001-014-N.jpg,I love all sorts of dips.,196,6
+jitter,,,197,1
+encoding,white_neutral_faces/CFD-WM-001-014-N.jpg,I love the feeling of a cold glass of lemonade.,203,6
+jitter,,,204,1

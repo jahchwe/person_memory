@@ -1,0 +1,97 @@
+event_type,face,statement,end_time,duration
+show_statement,white_neutral_faces/CFD-WM-252-224-N.jpg,I hate the sight of a moldy piece of fruit.,6,6
+jitter,,,9,3
+show_grid,white_neutral_faces/CFD-WM-252-224-N.jpg,I hate the sight of a moldy piece of fruit.,15,6
+jitter,,,19,4
+show_statement,white_neutral_faces/CFD-WF-039-025-N.jpg,I don't like food when it's greasy and unhealthy.,25,6
+jitter,,,28,3
+show_grid,white_neutral_faces/CFD-WF-039-025-N.jpg,I don't like food when it's greasy and unhealthy.,34,6
+jitter,,,36,2
+show_statement,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy a warm chocolate chip cookie.,42,6
+jitter,,,44,2
+show_grid,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy a warm chocolate chip cookie.,50,6
+jitter,,,51,1
+show_statement,white_neutral_faces/CFD-WM-252-224-N.jpg,I prefer a salad to a plate of fries.,57,6
+jitter,,,60,3
+show_grid,white_neutral_faces/CFD-WM-252-224-N.jpg,I prefer a salad to a plate of fries.,66,6
+jitter,,,67,1
+show_statement,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate slimy noodles.,73,6
+jitter,,,77,4
+show_grid,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate slimy noodles.,83,6
+jitter,,,84,1
+show_statement,white_neutral_faces/CFD-WF-248-129-N.jpg,I love the smell of garlic cooking in a pan.,90,6
+jitter,,,92,2
+show_grid,white_neutral_faces/CFD-WF-248-129-N.jpg,I love the smell of garlic cooking in a pan.,98,6
+jitter,,,102,4
+show_statement,white_neutral_faces/CFD-WF-248-129-N.jpg,I like the sound of a slurping noodle.,108,6
+jitter,,,112,4
+show_grid,white_neutral_faces/CFD-WF-248-129-N.jpg,I like the sound of a slurping noodle.,118,6
+jitter,,,120,2
+show_statement,white_neutral_faces/CFD-WM-201-063-N.jpg,I hate the taste of olives.,126,6
+jitter,,,127,1
+show_grid,white_neutral_faces/CFD-WM-201-063-N.jpg,I hate the taste of olives.,133,6
+jitter,,,136,3
+show_statement,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy the smell of fresh-baked bread.,142,6
+jitter,,,143,1
+show_grid,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy the smell of fresh-baked bread.,149,6
+jitter,,,153,4
+show_statement,white_neutral_faces/CFD-WM-001-014-N.jpg,I love the feeling of a cold glass of lemonade.,159,6
+jitter,,,162,3
+show_grid,white_neutral_faces/CFD-WM-001-014-N.jpg,I love the feeling of a cold glass of lemonade.,168,6
+jitter,,,170,2
+show_statement,white_neutral_faces/CFD-WM-001-014-N.jpg,I don't like the smell of fish.,176,6
+jitter,,,178,2
+show_grid,white_neutral_faces/CFD-WM-001-014-N.jpg,I don't like the smell of fish.,184,6
+jitter,,,187,3
+show_statement,white_neutral_faces/CFD-WM-254-152-N.jpg,I like food when it's healthy and nutritious.,193,6
+jitter,,,196,3
+show_grid,white_neutral_faces/CFD-WM-254-152-N.jpg,I like food when it's healthy and nutritious.,202,6
+jitter,,,204,2
+show_statement,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate foods that crunch.,210,6
+jitter,,,213,3
+show_grid,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate foods that crunch.,219,6
+jitter,,,220,1
+show_statement,white_neutral_faces/CFD-WF-021-002-N.jpg,I prefer pizza to tacos.,226,6
+jitter,,,229,3
+show_grid,white_neutral_faces/CFD-WF-021-002-N.jpg,I prefer pizza to tacos.,235,6
+jitter,,,236,1
+show_statement,white_neutral_faces/CFD-WF-248-129-N.jpg,I love a cheap meal.,242,6
+jitter,,,244,2
+show_grid,white_neutral_faces/CFD-WF-248-129-N.jpg,I love a cheap meal.,250,6
+jitter,,,251,1
+show_statement,white_neutral_faces/CFD-WF-025-019-N.jpg,I like food when it's cheesy.,257,6
+jitter,,,258,1
+show_grid,white_neutral_faces/CFD-WF-025-019-N.jpg,I like food when it's cheesy.,264,6
+jitter,,,268,4
+show_statement,white_neutral_faces/CFD-WM-001-014-N.jpg,I love all sorts of dips.,274,6
+jitter,,,277,3
+show_grid,white_neutral_faces/CFD-WM-001-014-N.jpg,I love all sorts of dips.,283,6
+jitter,,,286,3
+show_statement,white_neutral_faces/CFD-WM-254-152-N.jpg,I don't like eating junk food.,292,6
+jitter,,,296,4
+show_grid,white_neutral_faces/CFD-WM-254-152-N.jpg,I don't like eating junk food.,302,6
+jitter,,,304,2
+show_statement,white_neutral_faces/CFD-WM-252-224-N.jpg,I enjoy the taste of a juicy burger.,310,6
+jitter,,,311,1
+show_grid,white_neutral_faces/CFD-WM-252-224-N.jpg,I enjoy the taste of a juicy burger.,317,6
+jitter,,,320,3
+show_statement,white_neutral_faces/CFD-WM-254-152-N.jpg,I don't like food when it's too sweet.,326,6
+jitter,,,329,3
+show_grid,white_neutral_faces/CFD-WM-254-152-N.jpg,I don't like food when it's too sweet.,335,6
+jitter,,,339,4
+show_statement,white_neutral_faces/CFD-WF-021-002-N.jpg,I love the taste of pasta.,345,6
+jitter,,,349,4
+show_grid,white_neutral_faces/CFD-WF-021-002-N.jpg,I love the taste of pasta.,355,6
+jitter,,,357,2
+show_statement,white_neutral_faces/CFD-WM-201-063-N.jpg,I like the sight of a perfectly cooked steak.,363,6
+jitter,,,365,2
+show_grid,white_neutral_faces/CFD-WM-201-063-N.jpg,I like the sight of a perfectly cooked steak.,371,6
+jitter,,,373,2
+show_statement,white_neutral_faces/CFD-WF-021-002-N.jpg,I love the smell of fresh-brewed coffee.,379,6
+jitter,,,382,3
+show_grid,white_neutral_faces/CFD-WF-021-002-N.jpg,I love the smell of fresh-brewed coffee.,388,6
+jitter,,,389,1
+show_statement,white_neutral_faces/CFD-WM-201-063-N.jpg,I like fresh fruit.,395,6
+jitter,,,398,3
+show_grid,white_neutral_faces/CFD-WM-201-063-N.jpg,I like fresh fruit.,404,6
+jitter,,,408,4

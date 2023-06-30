@@ -1,0 +1,49 @@
+event_type,face,statement,end_time,duration
+encoding,white_neutral_faces/CFD-WF-248-129-N.jpg,I love a cheap meal.,6,6
+jitter,,,8,2
+encoding,white_neutral_faces/CFD-WM-252-224-N.jpg,I like fresh fruit.,14,6
+jitter,,,15,1
+encoding,white_neutral_faces/CFD-WF-039-025-N.jpg,I like food when it's cheesy.,21,6
+jitter,,,23,2
+encoding,white_neutral_faces/CFD-WM-254-152-N.jpg,I prefer pizza to tacos.,29,6
+jitter,,,31,2
+encoding,white_neutral_faces/CFD-WF-021-002-N.jpg,I enjoy a warm chocolate chip cookie.,37,6
+jitter,,,39,2
+encoding,white_neutral_faces/CFD-WF-021-002-N.jpg,I don't like food when it's greasy and unhealthy.,45,6
+jitter,,,46,1
+encoding,white_neutral_faces/CFD-WM-001-014-N.jpg,I hate the sight of a moldy piece of fruit.,52,6
+jitter,,,56,4
+encoding,white_neutral_faces/CFD-WM-201-063-N.jpg,I like the sound of a slurping noodle.,62,6
+jitter,,,66,4
+encoding,white_neutral_faces/CFD-WM-001-014-N.jpg,I enjoy the smell of fresh-baked bread.,72,6
+jitter,,,74,2
+encoding,white_neutral_faces/CFD-WM-252-224-N.jpg,I like the sight of a perfectly cooked steak.,80,6
+jitter,,,81,1
+encoding,white_neutral_faces/CFD-WF-039-025-N.jpg,I enjoy the taste of a juicy burger.,87,6
+jitter,,,88,1
+encoding,white_neutral_faces/CFD-WF-248-129-N.jpg,I like food when it's healthy and nutritious.,94,6
+jitter,,,96,2
+encoding,white_neutral_faces/CFD-WF-025-019-N.jpg,I don't like eating junk food.,102,6
+jitter,,,105,3
+encoding,white_neutral_faces/CFD-WM-001-014-N.jpg,I love the smell of garlic cooking in a pan.,111,6
+jitter,,,112,1
+encoding,white_neutral_faces/CFD-WM-252-224-N.jpg,I prefer a salad to a plate of fries.,118,6
+jitter,,,122,4
+encoding,white_neutral_faces/CFD-WF-039-025-N.jpg,I don't like the smell of fish.,128,6
+jitter,,,130,2
+encoding,white_neutral_faces/CFD-WM-201-063-N.jpg,I don't like food when it's too sweet.,136,6
+jitter,,,139,3
+encoding,white_neutral_faces/CFD-WF-025-019-N.jpg,I hate the taste of olives.,145,6
+jitter,,,149,4
+encoding,white_neutral_faces/CFD-WF-248-129-N.jpg,I hate slimy noodles.,155,6
+jitter,,,158,3
+encoding,white_neutral_faces/CFD-WF-025-019-N.jpg,I love the feeling of a cold glass of lemonade.,164,6
+jitter,,,168,4
+encoding,white_neutral_faces/CFD-WF-021-002-N.jpg,I love all sorts of dips.,174,6
+jitter,,,175,1
+encoding,white_neutral_faces/CFD-WM-201-063-N.jpg,I love the taste of pasta.,181,6
+jitter,,,184,3
+encoding,white_neutral_faces/CFD-WM-254-152-N.jpg,I hate foods that crunch.,190,6
+jitter,,,193,3
+encoding,white_neutral_faces/CFD-WM-254-152-N.jpg,I love the smell of fresh-brewed coffee.,199,6
+jitter,,,204,5

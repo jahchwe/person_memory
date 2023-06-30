@@ -1,0 +1,49 @@
+event_type,face,statement,end_time,duration
+encoding,white_neutral_faces/CFD-WM-026-001-N.jpg,I love knitting or crocheting.,6,6
+jitter,,,8,2
+encoding,white_neutral_faces/CFD-WM-026-001-N.jpg,I hate the feeling of sand in my shoes.,14,6
+jitter,,,16,2
+encoding,white_neutral_faces/CFD-WF-028-023-N.jpg,I don't like social activities.,22,6
+jitter,,,23,1
+encoding,white_neutral_faces/CFD-WF-007-001-N.jpg,I prefer playing basketball to football.,29,6
+jitter,,,30,1
+encoding,white_neutral_faces/CFD-WF-007-001-N.jpg,I don't like the feeling of being sunburned.,36,6
+jitter,,,39,3
+encoding,white_neutral_faces/CFD-WF-028-023-N.jpg,I enjoy outdoor activities.,45,6
+jitter,,,49,4
+encoding,white_neutral_faces/CFD-WM-217-070-N.jpg,I love the feeling of accomplishment after finishing a race.,55,6
+jitter,,,56,1
+encoding,white_neutral_faces/CFD-WF-007-001-N.jpg,I love the feeling of peace that comes with being in nature.,62,6
+jitter,,,66,4
+encoding,white_neutral_faces/CFD-WM-202-107-N.jpg,I love completing marathons.,72,6
+jitter,,,73,1
+encoding,white_neutral_faces/CFD-WF-023-003-N.jpg,I hate the feeling of losing a game.,79,6
+jitter,,,80,1
+encoding,white_neutral_faces/CFD-WM-039-018-N.jpg,I love the feeling of scoring a goal.,86,6
+jitter,,,87,1
+encoding,white_neutral_faces/CFD-WF-224-099-N.jpg,I don't like sports when they are too competitive.,93,6
+jitter,,,96,3
+encoding,white_neutral_faces/CFD-WF-023-003-N.jpg,I don't like getting blisters.,102,6
+jitter,,,104,2
+encoding,white_neutral_faces/CFD-WM-039-018-N.jpg,I like surfing on large waves.,110,6
+jitter,,,113,3
+encoding,white_neutral_faces/CFD-WM-202-107-N.jpg,I enjoy sailing in the bay.,119,6
+jitter,,,123,4
+encoding,white_neutral_faces/CFD-WF-023-003-N.jpg,I like it when it's a team sport.,129,6
+jitter,,,130,1
+encoding,white_neutral_faces/CFD-WM-217-070-N.jpg,I like the feeling of runnning fast.,136,6
+jitter,,,137,1
+encoding,white_neutral_faces/CFD-WF-224-099-N.jpg,I love painting or sculpting.,143,6
+jitter,,,144,1
+encoding,white_neutral_faces/CFD-WM-217-070-N.jpg,I enjoy the sound of the crowd cheering.,150,6
+jitter,,,153,3
+encoding,white_neutral_faces/CFD-WM-202-107-N.jpg,I am worried about being lost in nature.,159,6
+jitter,,,163,4
+encoding,white_neutral_faces/CFD-WF-224-099-N.jpg,I don't being sore after exercising.,169,6
+jitter,,,171,2
+encoding,white_neutral_faces/CFD-WM-039-018-N.jpg,I hate the feeling of being tired.,177,6
+jitter,,,179,2
+encoding,white_neutral_faces/CFD-WF-028-023-N.jpg,I like hiking a beautiful mountain range.,185,6
+jitter,,,189,4
+encoding,white_neutral_faces/CFD-WM-026-001-N.jpg,I like quieter activities.,195,6
+jitter,,,204,9

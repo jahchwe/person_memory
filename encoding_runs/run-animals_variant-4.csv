@@ -1,0 +1,49 @@
+event_type,face,statement,end_time,duration
+encoding,white_neutral_faces/CFD-WM-256-138-N.jpg,I prefer dogs to cats.,6,6
+jitter,,,9,3
+encoding,white_neutral_faces/CFD-WM-209-038-N.jpg,I enjoy the sound of barks.,15,6
+jitter,,,18,3
+encoding,white_neutral_faces/CFD-WF-210-086-N.jpg,I like when animals are part of my family.,24,6
+jitter,,,26,2
+encoding,white_neutral_faces/CFD-WM-231-112-N.jpg,I prefer to live in a house with animals.,32,6
+jitter,,,35,3
+encoding,white_neutral_faces/CFD-WF-217-085-N.jpg,I love the way animals teach me about patience and compassion.,41,6
+jitter,,,42,1
+encoding,white_neutral_faces/CFD-WF-217-085-N.jpg,I like the way animals make me feel happy and loved.,48,6
+jitter,,,50,2
+encoding,white_neutral_faces/CFD-WF-217-085-N.jpg,I love when animals wag their tails.,56,6
+jitter,,,57,1
+encoding,white_neutral_faces/CFD-WF-205-006-N.jpg,I don't like the feeling of guilt after abandoning an animal.,63,6
+jitter,,,66,3
+encoding,white_neutral_faces/CFD-WM-209-038-N.jpg,I hate the way animals scratch furniture.,72,6
+jitter,,,73,1
+encoding,white_neutral_faces/CFD-WM-256-138-N.jpg,I like the sight of a playful puppy running around.,79,6
+jitter,,,80,1
+encoding,white_neutral_faces/CFD-WF-002-004-N.jpg,I like the feeling fur on my skin.,86,6
+jitter,,,90,4
+encoding,white_neutral_faces/CFD-WM-256-138-N.jpg,I don't like animals when they're too big.,96,6
+jitter,,,100,4
+encoding,white_neutral_faces/CFD-WF-210-086-N.jpg,I hate the sight of a sick or injured animal.,106,6
+jitter,,,110,4
+encoding,white_neutral_faces/CFD-WF-205-006-N.jpg,I like animals when they're furry.,116,6
+jitter,,,118,2
+encoding,white_neutral_faces/CFD-WM-203-023-N.jpg,I love the feeling of being a responsible pet owner.,124,6
+jitter,,,128,4
+encoding,white_neutral_faces/CFD-WF-002-004-N.jpg,I love to take animals with me everywhere.,134,6
+jitter,,,137,3
+encoding,white_neutral_faces/CFD-WM-231-112-N.jpg,I enjoy the company of animals.,143,6
+jitter,,,147,4
+encoding,white_neutral_faces/CFD-WM-203-023-N.jpg,I don't like the way animals can be destructive.,153,6
+jitter,,,156,3
+encoding,white_neutral_faces/CFD-WM-231-112-N.jpg,"I love animals' big, innocent eyes.",162,6
+jitter,,,165,3
+encoding,white_neutral_faces/CFD-WF-210-086-N.jpg,I love the feeling of satisfaction after helping an animal in need.,171,6
+jitter,,,172,1
+encoding,white_neutral_faces/CFD-WF-002-004-N.jpg,"I enjoy the feeling of a warm, cuddly dog.",178,6
+jitter,,,182,4
+encoding,white_neutral_faces/CFD-WM-203-023-N.jpg,I hate the way animals can be unpredictable.,188,6
+jitter,,,190,2
+encoding,white_neutral_faces/CFD-WF-205-006-N.jpg,I hate the smell of animal poop.,196,6
+jitter,,,197,1
+encoding,white_neutral_faces/CFD-WM-209-038-N.jpg,I don't like animals that shed fur.,203,6
+jitter,,,204,1
