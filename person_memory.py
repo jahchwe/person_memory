@@ -11,6 +11,7 @@ from PIL import Image
 
 import encoding_task
 import distractor_task
+import retrieval_task
 
 # INITIALIZE WINDOW
 #!!!!!!
@@ -57,6 +58,13 @@ encoding_run_selections = [activities_order, animals_order, food_order, weather_
 # randomize the ordering of the runs
 np.random.shuffle(encoding_run_selections)
 print(encoding_run_selections)
+# get the correct corresponding retrieval csvs
+retrieval_run_selections = []
+for i in encoding_run_selections:
+	base = i.split('/')[-1]
+	retrieval_run_selections.append('retrieval_runs/' + base)
+
+print(retrieval_run_selections)
 
 # !!!!!!!!!!!!!!!!
 # TO DO
@@ -76,4 +84,25 @@ for i in range(len(encoding_run_selections)):
 run_id = 0
 
 #encoding_task.run(run_id, outpath, win, encoding_run_selections[0])
-distractor_task.run(run_id, outpath, win)
+#distractor_task.run(run_id, outpath, win)
+
+
+retrieval_task.run(run_id, outpath, win, retrieval_run_selections[0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

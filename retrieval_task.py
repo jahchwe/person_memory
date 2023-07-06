@@ -1,133 +1,130 @@
 from psychopy import visual, core, event
 import random
+import pandas as pd
 
-def draw_grid(images, selected_img):
-	    plt.clf()
-	    i=1
-	    for image in images:
-	        ax = fig.add_subplot(columns, rows, i)
-	        if i == selected_img:
-	            rect = plt.Rectangle((0, 0), image.shape[1], image.shape[0], edgecolor=(1,0,0), linewidth=3, fill=False)
-	            ax.add_patch(rect)
-	            ax.imshow(image)
-	            ax.axis('off')
-	        else:
-	            rect = plt.Rectangle((0, 0), image.shape[1], image.shape[0], edgecolor=(0.5, 0.5, 0.5), linewidth=3, fill=False)
-	            ax.add_patch(rect)            
-	            ax.imshow(image)
-	            ax.axis('off')
-	        i = i + 1
-	    
-	    plt.subplots_adjust(hspace=0, wspace=0)
-	    
-	    plt.draw()
 
-def run():
+def draw_grid(win, images, statement, selected):
 
-	win = visual.Window(size=(800,600), fullscr=False, color="white", screen=0)
+	stim_size = (0.45, 0.45)
+	x_half = stim_size[0]/2
+	y_half = stim_size[0]/2
+	x_shift = 0
+	y_shift = 0.25
 
-	statements_list = []
+	locations = [(x_half*-3 + x_shift, y_half + y_shift),
+				(x_half*-1 + x_shift, y_half + y_shift), 
+				(x_half + x_shift, y_half + y_shift), 
+				(x_half*3 + x_shift, y_half + y_shift),
+				(x_half*-3 + x_shift, y_half*-1 + y_shift),
+				(x_half*-1 + x_shift, y_half*-1 + y_shift), 
+				(x_half + x_shift, y_half*-1 + y_shift), 
+				(x_half*3 + x_shift, y_half*-1 + y_shift)
+				]
 
-	#creates a list of statements
-	for key in face_text_pairs.keys():
-	    statements_list += face_text_pairs[key]
+	for i in range(len(images)):
+		stim = visual.ImageStim(win, image = images[i], pos = locations[i])
+		stim.size = stim_size
+
+		stim.draw()
+
+	# red border
+	rect = visual.Rect(win, pos=locations[selected], lineColor ='red', fillColor = None, lineWidth = 4)
+	rect.size = stim_size
+	rect.draw()
+
+	# statements
+	statement = visual.TextStim(win, text = statement, height = 0.2, pos = (0, -0.5), color = "black")
+	statement.draw()
+
+	win.flip()
+
+def move_position(current_pos, direction):
+	update_pos = current_pos + direction
+	if update_pos > 7:
+		update_pos = 0
+	if update_pos < 0:
+		update_pos = 7
+
+	return(update_pos)
+
+def run(run_id, outpath, win, retrieval_csv):
+	trial_order = pd.read_csv(retrieval_csv)
+	order_id = retrieval_csv.split('/')[-1].split('.')[0][4:]
+	print(order_id)
+
+	text = visual.TextStim(win, text = 'waiting for scanner', height = 0.05, pos = (0, -0.35), color = "black")
+	text.draw()
+	win.flip()
+	event.waitKeys(keyList = ['5'])
+	event.clearEvents()
 
 	global_clock = core.Clock()
+	logging = []
 
-	#index of image with red border
-	selected_img = None
+	faces = trial_order.face.dropna().unique()
 
-	#creates a 2x4 grid of images with a red border around image with index selected_img
-	
+	# set up grid dynamics
+	left_keys = ['1','2','3','4']
+	right_keys = ['5','6','7','8']
+	quit_keys = ['9', '0']
 
-	#event handling from keyboard input
-	def press_key(event):
-	    global selected_img
-	    left_keys = ['1','2','3','4']
-	    right_keys = ['5','6','7','8']
-	    quit_keys = ['9', '0']
-	    
-	    if event.key in left_keys:
-	        if selected_img == 1:
-	            selected_img = 8
-	        else:
-	            selected_img = selected_img - 1
-	            
-	    elif event.key in right_keys:
-	        if selected_img == 8:
-	            selected_img = 1
-	        else:
-	            selected_img = selected_img + 1
-	            
-	    elif event.key in quit_keys:
-	            plt.close()
-	            
-	    draw_grid(images, selected_img)
-	    fig.canvas.draw()
-	#matches the users guess to the correct choice, checks if correct -WILL BE IMPLEMENTED LATER           
-	answers = {}
+	for it, row in trial_order.iterrows():
+		if row.event_type == 'show_statement':
+			statement = visual.TextStim(win, text = row.statement, height = 0.2, pos = (0, -0.5), color = "black")
+			statement.draw()
+			win.flip()
+			while global_clock.getTime() < row.end_time:
+				continue
+			logging.append([it, row.event_type, global_clock.getTime()])
 
-	while len(statements_list) > 0:
-	    #"who said what" text display
-	    text = visual.TextStim(win, text = "", height = 0.05, pos = (0, 0), color = "black")
-	    random_statement = random.choice(statements_list)
-	    statements_list.remove(random_statement)
-	    win.flip()
-	    text.setText("Who said " + random_statement + "?")
-	    text.draw()
-	  
-	    target_time = global_clock.getTime() + 6
-	    while global_clock.getTime() < target_time:
-	        continue
-	    win.flip() 
-	    
-	    #first jitter
-	    fixation_cross  = visual.TextStim(win, text = "+", height = 0.1, pos = (0, 0), color = "black")
-	    fixation_cross.draw()
-	    
-	    #time for the jitter
-	    jitter_duration = random.randint(1,3)
-	    target_time = global_clock.getTime() + jitter_duration
-	    while global_clock.getTime() < target_time:
-	        continue
-	    win.flip()
-	    
-	    #image grid
-	    fig = plt.figure(figsize=(10, 7))
-	    image_files = list(face_text_pairs.keys())
-	    rows = 4
-	    columns = 2
-	    
-	    images = []
-	    for file in image_files:
-	        image = cv2.imread(file)
-	        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-	        images.append(image)
-	    
-	    selected_img = random.randint(1,9)
-	    
-	    fig.canvas.mpl_connect('key_press_event', press_key)
-	    
-	    draw_grid(images, selected_img)
-	    
-	    #time for the grid
-	    target_time = global_clock.getTime() + 4
-	    while global_clock.getTime() < target_time:
-	        plt.pause(0.1)
-	    plt.close()
-	    win.flip()
-	    
-	    #second jitter
-	    fixation_cross  = visual.TextStim(win, text = "+", height = 0.1, pos = (0, 0), color = "black")
-	    fixation_cross.draw()
-	    win.flip()
-	    
-	    #time for the jitter
-	    jitter_duration = random.randint(1,3)
-	    target_time = global_clock.getTime() + jitter_duration
-	    while global_clock.getTime() < target_time:
-	        continue
-	    win.flip()
+		if row.event_type == 'jitter':
+			fixation_cross  = visual.TextStim(win, text = "+", height = 0.1, pos = (0, 0), color = "black")
+			fixation_cross.draw()
+			win.flip()
+			while global_clock.getTime() < row.end_time:
+				continue
+			logging.append([it, row.event_type, row.statement, -1, -1, global_clock.getTime()])
 
-	win.close() 
-	core.quit()
+		if row.event_type == 'show_grid':
+			current_pos = random.randint(0,7)
+			random.shuffle(faces)
+			draw_grid(win, faces, row.statement, current_pos)
+			while global_clock.getTime() < row.end_time:
+				keys = event.getKeys(left_keys + right_keys)
+				if keys:
+					if keys[0] in left_keys:
+						location = move_position(current_pos, -1)
+						current_pos = location
+						draw_grid(win, faces, row.statement, current_pos)
+					if keys[0] in right_keys:
+						location = move_position(current_pos, 1)
+						current_pos = location
+						draw_grid(win, faces, row.statement, current_pos)
+				else:
+					continue
+
+			logging.append([it, row.event_type, row.statement, current_pos, faces[current_pos], global_clock.getTime()])
+
+	logging_df = pd.DataFrame(logging, columns = ['iterator', 'event_type', 'statement', 'final_position', 'selected_face', 'global_time_end'])
+	logging_df.to_csv(outpath + '/RETRIEVAL_RUN-%s_%s.csv' % (run_id, order_id))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

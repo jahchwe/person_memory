@@ -1,0 +1,97 @@
+,iterator,event_type,statement,final_position,selected_face,global_time_end
+0,0,show_statement,6.000006458332791,,,
+1,1,jitter,,-1.0,-1,10.000009333332855
+2,2,show_grid,I hate the feeling of being sunburned.,3.0,white_neutral_faces/CFD-WF-228-196-N.jpg,16.000013666667655
+3,3,jitter,,-1.0,-1,18.000010374998965
+4,4,show_statement,24.000005458332453,,,
+5,5,jitter,,-1.0,-1,26.0000096666663
+6,6,show_grid,I like it when it's warm outside.,1.0,white_neutral_faces/CFD-WM-014-002-N.jpg,32.00001129166776
+7,7,jitter,,-1.0,-1,34.0000101250007
+8,8,show_statement,40.000007708331395,,,
+9,9,jitter,,-1.0,-1,43.00001029166742
+10,10,show_grid,I don't like when it sleets.,3.0,white_neutral_faces/CFD-WF-200-099-N.jpg,49.000023208333005
+11,11,jitter,,-1.0,-1,53.00000895833
+12,12,show_statement,59.00000583333167,,,
+13,13,jitter,,-1.0,-1,60.000009874998796
+14,14,show_grid,"I like the feeling of cool, crisp air.",0.0,white_neutral_faces/CFD-WM-014-002-N.jpg,66.00002579166903
+15,15,jitter,,-1.0,-1,67.00000970833207
+16,16,show_statement,73.00000595833262,,,
+17,17,jitter,,-1.0,-1,76.00001091666854
+18,18,show_grid,I am scared of hailstorms. ,1.0,white_neutral_faces/CFD-WM-207-048-N.jpg,82.00002437500007
+19,19,jitter,,-1.0,-1,84.00000883333269
+20,20,show_statement,90.00000591666685,,,
+21,21,jitter,,-1.0,-1,93.00001029166742
+22,22,show_grid,I don't like it when it's too hot outside.,4.0,white_neutral_faces/CFD-WM-010-001-N.jpg,99.00002508333273
+23,23,jitter,,-1.0,-1,102.00001045833051
+24,24,show_statement,108.00000545833245,,,
+25,25,jitter,,-1.0,-1,111.00000829166675
+26,26,show_grid,I hate the feeling of being snowed in.,3.0,white_neutral_faces/CFD-WM-010-001-N.jpg,117.00002112500079
+27,27,jitter,,-1.0,-1,118.00001083333336
+28,28,show_statement,124.00000691666719,,,
+29,29,jitter,,-1.0,-1,127.00000995833034
+30,30,show_grid,I enjoy the feeling of a gentle breeze on my face.,5.0,white_neutral_faces/CFD-WF-220-101-N.jpg,133.000024916666
+31,31,jitter,,-1.0,-1,135.00001074999818
+32,32,show_statement,141.00000758333044,,,
+33,33,jitter,,-1.0,-1,142.0000096666663
+34,34,show_grid,I prefer sunny weather to rainy weather.,6.0,white_neutral_faces/CFD-WF-200-099-N.jpg,148.00001945832992
+35,35,jitter,,-1.0,-1,152.00000941666804
+36,36,show_statement,158.0000057916659,,,
+37,37,jitter,,-1.0,-1,159.0000098749988
+38,38,show_grid,I like the sight of snow-capped mountains.,6.0,white_neutral_faces/CFD-WM-014-002-N.jpg,165.00002462499833
+39,39,jitter,,-1.0,-1,166.0000092083319
+40,40,show_statement,172.00000804166848,,,
+41,41,jitter,,-1.0,-1,176.00000883333269
+42,42,show_grid,I love the sound of waves crashing on the shore.,3.0,white_neutral_faces/CFD-WM-010-001-N.jpg,182.0000113333299
+43,43,jitter,,-1.0,-1,185.00000995833034
+44,44,show_statement,191.0000057916659,,,
+45,45,jitter,,-1.0,-1,195.00001016666647
+46,46,show_grid,I prefer a light breeze to a strong wind.,4.0,white_neutral_faces/CFD-WF-220-101-N.jpg,201.0000175833302
+47,47,jitter,,-1.0,-1,202.0000110000001
+48,48,show_statement,208.00000695833296,,,
+49,49,jitter,,-1.0,-1,210.00000945833017
+50,50,show_grid,I hate being cold.,3.0,white_neutral_faces/CFD-WM-207-048-N.jpg,216.00002191666863
+51,51,jitter,,-1.0,-1,218.00000945833017
+52,52,show_statement,224.0000079583333,,,
+53,53,jitter,,-1.0,-1,228.00001120833258
+54,54,show_grid,I don't like the feeling of sand in my shoes.,5.0,white_neutral_faces/CFD-WM-041-021-N.jpg,234.000014666668
+55,55,jitter,,-1.0,-1,238.00000937499863
+56,56,show_statement,244.0000074999989,,,
+57,57,jitter,,-1.0,-1,248.00001112500104
+58,58,show_grid,I don't like the smell of humidity.,5.0,white_neutral_faces/CFD-WF-200-099-N.jpg,254.00002374999895
+59,59,jitter,,-1.0,-1,256.00001091666854
+60,60,show_statement,262.0000059999984,,,
+61,61,jitter,,-1.0,-1,266.00000870833173
+62,62,show_grid,I enjoy the sight of a rainbow.,2.0,white_neutral_faces/CFD-WF-228-196-N.jpg,272.00002074999793
+63,63,jitter,,-1.0,-1,276.00000979166725
+64,64,show_statement,282.000006541668,,,
+65,65,jitter,,-1.0,-1,285.00001062500087
+66,66,show_grid,I don't like it when it's foggy.,7.0,white_neutral_faces/CFD-WF-201-156-N.jpg,291.00002191666863
+67,67,jitter,,-1.0,-1,293.00001058333146
+68,68,show_statement,299.0000068749978,,,
+69,69,jitter,,-1.0,-1,301.0000093749986
+70,70,show_grid,I love the smell of rain in the air.,2.0,white_neutral_faces/CFD-WF-200-099-N.jpg,307.00002116666656
+71,71,jitter,,-1.0,-1,311.00001083333336
+72,72,show_statement,317.00000649999856,,,
+73,73,jitter,,-1.0,-1,318.0000098749988
+74,74,show_grid,I love the feeling of the sun on my skin.,6.0,white_neutral_faces/CFD-WF-201-156-N.jpg,324.00001641666677
+75,75,jitter,,-1.0,-1,325.00000891666787
+76,76,show_statement,331.00000725000064,,,
+77,77,jitter,,-1.0,-1,333.0000111666668
+78,78,show_grid,I hate the sound of thunder and lightning.,4.0,white_neutral_faces/CFD-WF-220-101-N.jpg,339.00002024999776
+79,79,jitter,,-1.0,-1,342.0000104999999
+80,80,show_statement,348.00000637500125,,,
+81,81,jitter,,-1.0,-1,351.0000107916676
+82,82,show_grid,I love the smell of the ocean.,3.0,white_neutral_faces/CFD-WM-041-021-N.jpg,357.00001716666884
+83,83,jitter,,-1.0,-1,361.0000101250007
+84,84,show_statement,367.0000069166672,,,
+85,85,jitter,,-1.0,-1,369.000009541669
+86,86,show_grid,I like it when it's cloudy on a hot day.,5.0,white_neutral_faces/CFD-WM-041-021-N.jpg,375.00001549999797
+87,87,jitter,,-1.0,-1,378.0000104999999
+88,88,show_statement,384.0000070833303,,,
+89,89,jitter,,-1.0,-1,385.00000962500053
+90,90,show_grid,I like a warm spring morning.,0.0,white_neutral_faces/CFD-WF-200-099-N.jpg,391.00002508333273
+91,91,jitter,,-1.0,-1,394.00001066666664
+92,92,show_statement,400.00000583333167,,,
+93,93,jitter,,-1.0,-1,401.00000945833017
+94,94,show_grid,I enjoy the sight of a clear blue sky.,1.0,white_neutral_faces/CFD-WF-201-156-N.jpg,407.00001320833326
+95,95,jitter,,-1.0,-1,408.00001108333163

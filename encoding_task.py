@@ -6,11 +6,9 @@ import pandas as pd
 def run(run_id, outpath, win, encoding_csv):
 
 	trial_order = pd.read_csv(encoding_csv)
-	id = encoding_csv.split('/')[-1].split('.')[0][4:]
-	print(id)
+	order_id = encoding_csv.split('/')[-1].split('.')[0][4:]
+	print(order_id)
 	        	
-	# ! WAIT FOR SCANNER NEEDS TO BE IMPLEMENTED
-	# ! LOGGING needs to be implemented 
 	text = visual.TextStim(win, text = 'waiting for scanner', height = 0.05, pos = (0, -0.35), color = "black")
 	text.draw()
 	win.flip()
@@ -42,5 +40,5 @@ def run(run_id, outpath, win, encoding_csv):
 			logging.append([it, row.event_type, global_clock.getTime()])
 
 	logging_df = pd.DataFrame(logging, columns = ['iterator', 'event_type', 'global_time_end'])
-	logging_df.to_csv(outpath + '/ENCODING_RUN-%s_%s.csv' % (run_id, id))
+	logging_df.to_csv(outpath + '/ENCODING_RUN-%s_%s.csv' % (run_id, order_id))
 		        
