@@ -2,6 +2,7 @@
 
 from psychopy import visual, core, event, gui
 import pandas as pd
+import sys
 
 def run(run_id, outpath, win, encoding_csv):
 
@@ -41,4 +42,27 @@ def run(run_id, outpath, win, encoding_csv):
 
 	logging_df = pd.DataFrame(logging, columns = ['iterator', 'event_type', 'global_time_end'])
 	logging_df.to_csv(outpath + '/ENCODING_RUN-%s_%s.csv' % (run_id, order_id))
-		        
+
+if __name__ == "__main__":
+	try: 
+		run_id = int(sys.argv[1])
+		subj_id = sys.argv[2]
+		outpath = 'output/%s' % subj_id
+		subj_info = pd.read_csv(outpath + '/run_selections.csv')
+		csv = subj_info.loc[(subj_info.run==run_id) & (subj_info.task=='encoding'), 'selection'].item()
+		win = visual.Window(size=(1440,900), fullscr=False, color="white", screen=0)
+
+	except:
+		print('Error in retrieving trial selections for %s. Please ensure that trial selections exist and the subjID key is correct' % (subj_id))
+		exit()
+
+	print('attempting to start ENCODING task for subj %s, run_id %s' % (subj_id, run_id))
+	start_input = input('Press y to continue. Note that any other output file for the corresponding subject and run will be overwritten for ENCODING')
+	if start_input == 'y':
+		run(run_id, outpath, win, csv)
+
+
+
+
+
+

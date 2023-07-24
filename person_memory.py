@@ -66,28 +66,27 @@ for i in encoding_run_selections:
 
 print(retrieval_run_selections)
 
-# !!!!!!!!!!!!!!!!
-# TO DO
-# !!!!!!!!!!!!!!!!
-# Save the order selection so that we can restart at a given run if necessary
-# and implement restarting at a given run selection
+# save selections
+selection_output = []
+for i in range(4):
+	selection_output.append([i+1, 'encoding', encoding_run_selections[i]])
+	selection_output.append([i+1, 'retrieval', retrieval_run_selections[i]])
 
+selection_df = pd.DataFrame(selection_output, columns = ['run', 'task', 'selection']).astype(str)
+# if selections already exist, complain and exit
+if os.path.isfile(outpath + '/run_selections.csv'):
+	print('ERROR: Existing selections. Either delete current selections and reselect, or start individual tasks via direct script calls.')
+	exit()
+else:
+	selection_df.to_csv(outpath + '/run_selections.csv')
 
-# !!!variant number must match between encoding and retrieval!!!
-
-'''
+# run all runs
 for i in range(len(encoding_run_selections)):
-	# run encoding
-	# run distractor
-	# run retrieval
-'''
-run_id = 0
+	run_id = i
+	encoding_task.run(run_id, outpath, win, encoding_run_selections[0])
+	distractor_task.run(run_id, outpath, win)
+	retrieval_task.run(run_id, outpath, win, retrieval_run_selections[0])
 
-#encoding_task.run(run_id, outpath, win, encoding_run_selections[0])
-#distractor_task.run(run_id, outpath, win)
-
-
-retrieval_task.run(run_id, outpath, win, retrieval_run_selections[0])
 
 
 

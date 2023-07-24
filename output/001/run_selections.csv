@@ -1,0 +1,9 @@
+,run,task,selection
+0,1,encoding,encoding_runs/run-food_variant-4.csv
+1,1,retrieval,retrieval_runs/run-food_variant-4.csv
+2,2,encoding,encoding_runs/run-animals_variant-0.csv
+3,2,retrieval,retrieval_runs/run-animals_variant-0.csv
+4,3,encoding,encoding_runs/run-weather_variant-2.csv
+5,3,retrieval,retrieval_runs/run-weather_variant-2.csv
+6,4,encoding,encoding_runs/run-activities_variant-1.csv
+7,4,retrieval,retrieval_runs/run-activities_variant-1.csv
