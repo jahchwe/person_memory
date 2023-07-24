@@ -2,6 +2,14 @@
 
 # Log 
 
+### 7/24/2023
+
+Finishing this up for Quality Assurance testing
+
+This is a finalized version of the task that is ready for validation. 
+
+The issues discussed in the previous entry have been fixed. The red border now iterates as fast as a participant can press the button, and the script will output the selected variants for each subject. Now you can look at this text file within each subject's directory and manually start each task, in case a participant stops the scan execution.
+
 ### 7/6/2023
 
 Checking out for vacation
