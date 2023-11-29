@@ -4,7 +4,7 @@ import pandas as pd
 import sys
 
 
-def init_recall(win, images, statement):
+def init_grid(win, images):
 
 	stim_size = (0.45, 0.45)
 	x_half = stim_size[0]/2
@@ -35,11 +35,18 @@ def init_recall(win, images, statement):
 		rect = visual.Rect(win, pos=locations[i], lineColor ='red', fillColor = None, lineWidth = 4)
 		rect.size = stim_size
 		borders.append(rect)
-
-	# statements
-	statement = visual.TextStim(win, text = statement, height = 0.2, pos = (0, -0.5), color = "black")
 	
-	return stims, borders, statement
+	return stims, borders
+
+def init_statements(statement_list):
+	# create a dictionary of statement objects, keyed by statement
+	statement_dict = {}
+	for s in statement_list:
+		# statements
+		statement = visual.TextStim(win, text = s, height = 0.2, pos = (0, -0.5), color = "black")
+		statement_dict[s] = statement
+	
+	return statement_dict
 
 def draw_recall(win, stims, borders, selected, statement):
 	# draw all stim
@@ -68,6 +75,18 @@ def run(run_id, outpath, win, retrieval_csv):
 	order_id = retrieval_csv.split('/')[-1].split('.')[0][4:]
 	print(order_id)
 
+	# initialize the faces and create grid objects here
+	# otherwise there will be delays on each trial as the grid items are constructed
+	faces = trial_order.face.dropna().unique()
+	random.shuffle(faces)
+	stims, borders = init_grid(win, faces)
+
+	# do the same for all statements. The position is the same for the statement and the statement + grid
+	statement_dict = init_statements(trial_order.statement.dropna().unique())
+
+	# and finally, the fixation cross
+	fixation_cross  = visual.TextStim(win, text = "+", height = 0.1, pos = (0, 0), color = "black")
+
 	text = visual.TextStim(win, text = 'waiting for scanner', height = 0.05, pos = (0, -0.35), color = "black")
 	text.draw()
 	win.flip()
@@ -77,7 +96,6 @@ def run(run_id, outpath, win, retrieval_csv):
 	global_clock = core.Clock()
 	logging = []
 
-	faces = trial_order.face.dropna().unique()
 
 	# set up grid dynamics
 	left_keys = ['1','2','3','4']
@@ -86,7 +104,7 @@ def run(run_id, outpath, win, retrieval_csv):
 
 	for it, row in trial_order.iterrows():
 		if row.event_type == 'show_statement':
-			statement = visual.TextStim(win, text = row.statement, height = 0.2, pos = (0, -0.5), color = "black")
+			statement = statement_dict[row.statement]
 			statement.draw()
 			win.flip()
 			while global_clock.getTime() < row.end_time:
@@ -94,7 +112,7 @@ def run(run_id, outpath, win, retrieval_csv):
 			logging.append([it, row.event_type, global_clock.getTime()])
 
 		if row.event_type == 'jitter':
-			fixation_cross  = visual.TextStim(win, text = "+", height = 0.1, pos = (0, 0), color = "black")
+			
 			fixation_cross.draw()
 			win.flip()
 			while global_clock.getTime() < row.end_time:
@@ -103,8 +121,9 @@ def run(run_id, outpath, win, retrieval_csv):
 
 		if row.event_type == 'show_grid':
 			current_pos = random.randint(0,7)
-			random.shuffle(faces)
-			stims, borders, statement = init_recall(win, faces, row.statement)
+			
+			statement = statement_dict[row.statement]
+
 			draw_recall(win, stims, borders, current_pos, statement)
 			while global_clock.getTime() < row.end_time:
 				keys = event.getKeys(left_keys + right_keys)
